@@ -1,29 +1,18 @@
-diff --git a/node_modules/react-native/Libraries/NewAppScreen/components/Header.js b/node_modules/react-native/Libraries/NewAppScreen/components/Header.js
-index 4907466..48cb7f8 100644
---- a/node_modules/react-native/Libraries/NewAppScreen/components/Header.js
-+++ b/node_modules/react-native/Libraries/NewAppScreen/components/Header.js
-@@ -38,7 +38,7 @@ const Header = (): Node => {
-         ]}>
-         Welcome to
-         {'\n'}
--        React Native
-+        App Abidzar
-       </Text>
-     </ImageBackground>
-   );
 diff --git a/node_modules/react-native/index.js b/node_modules/react-native/index.js
-index d59ba34..8023167 100644
+index d59ba34..824fc17 100644
 --- a/node_modules/react-native/index.js
 +++ b/node_modules/react-native/index.js
-@@ -435,32 +435,16 @@ module.exports = {
+@@ -434,33 +434,17 @@ module.exports = {
+       );
    },
    // Deprecated Prop Types
-   get ColorPropType(): $FlowFixMe {
+-  get ColorPropType(): $FlowFixMe {
 -    invariant(
 -      false,
 -      'ColorPropType has been removed from React Native. Migrate to ' +
 -        "ColorPropType exported from 'deprecated-react-native-prop-types'.",
 -    );
++   get ColorPropType(): $FlowFixMe {
 +    return require("deprecated-react-native-prop-types").ColorPropType
    },
    get EdgeInsetsPropType(): $FlowFixMe {

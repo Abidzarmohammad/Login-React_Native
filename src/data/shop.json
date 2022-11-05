@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "name": "Bayer Health Official Partner",
+        "type": "SHOPEE",
+        "link": "https://shopee.co.id/bayerofficial?categoryId=100001&entryPoint=ShopByPDP&itemId=21653441696&upstream=search"
+    },
+    {
+        "id": 2,
+        "name": "Apotik Indonesia Ofiical",
+        "type": "TOKOPEDIA",
+        "link": "https://www.tokopedia.com/apotikindonesia"
+    },
+    {
+        "id": 3,
+        "name": "Go Apotik Health Official Shop",
+        "type": "SHOPEE",
+        "link": "hhttps://shopee.co.id/goapotik"
+    }
+]

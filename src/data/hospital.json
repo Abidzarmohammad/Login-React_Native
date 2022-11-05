@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "Siloam",
+        "phone": "021-987777",
+        "email": "info@siloam.com",
+        "address": "Jalan bangka no 11",
+        "city": "MEDAN"
+    },
+    {
+        "id": 2,
+        "name": "RSUD Jakarta Barat",
+        "phone": "021-187777",
+        "email": "info@rsudjakbar.com",
+        "address": "Jalan Melati no 1",
+        "city": "JAKARTA"
+    },
+    {
+        "id": 3,
+        "name": "RSUD Jakarta Sealatan",
+        "phone": "021-287777",
+        "email": "info@rsudjaksel.com",
+        "address": "Jalan mawar no 11",
+        "city": "JAKARTA"
+    }
+]

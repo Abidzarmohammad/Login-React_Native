@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import {
   StyleSheet,
   Text,
   View,
-  StatusBar ,
-  TouchableOpacity
+  StatusBar,
+  TouchableOpacity,
 } from 'react-native';
 
 import Logo from '../components/Logo';
@@ -13,53 +13,56 @@ import Form from '../components/Form';
 import {Actions} from 'react-native-router-flux';
 
 export default class Login extends Component<{}> {
-
-	signup() {
-		Actions.signup()
-	}
-
-  profile() {
-    Actions.profile()
+  signup() {
+    Actions.signup();
   }
 
-	render() {
-		return(
-			<View style={styles.container}>
-				<Logo/>
-				<Form type="Login"/>
-				<View style={styles.signupTextCont}>
-					<Text style={styles.signupText}>Don't have an account yet?</Text>
-					<TouchableOpacity onPress={this.signup}><Text style={styles.signupButton}> Signup</Text></TouchableOpacity>
-          </View>
-          <View>
-          <TouchableOpacity onPress={this.profile}><Text style={styles.signupButton}> Profile</Text></TouchableOpacity>
-				</View>
-			</View>	
-			)
-	}
+  profile() {
+    Actions.profile();
+  }
+
+  render() {
+    return (
+      <View style={styles.container}>
+        <Logo />
+        <Form type="Login" />
+        <View style={styles.signupTextCont}>
+          <Text style={styles.signupText}>Don't have an account yet?</Text>
+          <TouchableOpacity onPress={this.signup}>
+            <Text style={styles.signupButton}> Signup</Text>
+          </TouchableOpacity>
+        </View>
+        {/* <View>
+          <TouchableOpacity onPress={this.profile}>
+            <Text style={styles.signupButton}> Profile</Text>
+          </TouchableOpacity>
+        </View> */}
+      </View>
+    );
+  }
 }
 
 const styles = StyleSheet.create({
-  container : {
-    backgroundColor:'#ffffff',
+  container: {
+    backgroundColor: '#ffffff',
     flex: 1,
-    alignItems:'center',
-    justifyContent :'center'
+    alignItems: 'center',
+    justifyContent: 'center',
   },
-  signupTextCont : {
-  	flexGrow: 1,
-    alignItems:'flex-end',
-    justifyContent :'center',
-    paddingVertical:16,
-    flexDirection:'row'
+  signupTextCont: {
+    flexGrow: 1,
+    alignItems: 'flex-end',
+    justifyContent: 'center',
+    paddingVertical: 16,
+    flexDirection: 'row',
   },
   signupText: {
-  	color:'rgb(100,100,100)',
-  	fontSize:16
+    color: 'rgb(100,100,100)',
+    fontSize: 16,
   },
   signupButton: {
-  	color:'#3399FF',
-  	fontSize:16,
-  	fontWeight:'500'
-  }
+    color: '#3399FF',
+    fontSize: 16,
+    fontWeight: '500',
+  },
 });

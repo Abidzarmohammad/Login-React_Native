@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "dr. Rahman D",
+        "phone": "021-987777",
+        "total": 2122,
+        "address": "RS Melati",
+        "specialization": "THT"
+    },
+    {
+        "id": 2,
+        "name": "drg. Mawar A",
+        "phone": "021-187777",
+        "total": 122,
+        "address": "RS Siloam",
+        "specialization": "THT"
+    },
+    {
+        "id": 3,
+        "name": "dr. Sarah B",
+        "phone": "021-287777",
+        "total": 722,
+        "address": "RSUD Jakarta",
+        "specialization": "ANAK"
+    }
+]
